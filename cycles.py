@@ -99,11 +99,11 @@ def cycle(
     STK_pulm = max(Pa_pulm)
     DTK_pulm = min(Pa_pulm)
     SV_rv = simpson(Qpv, x=t_to_solve)
-    VR_rv = simpson(Qmv, x=t_to_solve)
+    VR_rv = simpson(Qtv, x=t_to_solve)
 
 
-    Qv_pulm = (Pv_pulm - Pla)/Rv_pulm
-    Qv_syst = (Pv_syst - Pra)/Rv_syst
+    Qv_pulm = (Pv_pulm - Pla)/(Rv_pulm/conversion_factor)
+    Qv_syst = (Pv_syst - Pra)/(Rv_syst/conversion_factor)
     Qv_LAD = (Pv_LAD - Pra)/(Rv_LAD/conversion_factor) #if Pv_LAD > Pra else 0.0
     Qv_LCX = (Pv_LCX - Pra)/(Rv_LCX/conversion_factor) #if Pv_LCX > Pra else 0.0
     Qv_RCA = (Pv_RCA - Pra)/(Rv_RCA/conversion_factor) #if Pv_RCA > Pra else 0.0
