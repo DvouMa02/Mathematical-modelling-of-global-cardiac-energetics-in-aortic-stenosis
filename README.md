@@ -87,6 +87,8 @@ result, cycles_run = multiple_cycles(
     store_all=False,
 )
 
+print(f"Stability reached at {cycles_run}. cycle")
+
 fig, ax = plt.subplots()
 ax.plot(result["chambers"]["Vlv"], result["chambers"]["Plv"])
 ax.set_xlabel("Left ventricular volume (mL)")
