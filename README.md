@@ -69,7 +69,7 @@ The baseline model example below uses the supplied JSON parameters and does not 
 
 ## Model scheme
 
-![Model scheme](Windkessel2horizontal.png)
+![Model scheme](Windkessel2horizontal.pdf)
 
 ## Run example
 
