@@ -36,7 +36,7 @@ The model represents the four cardiac chambers, cardiac valves, systemic and pul
 
 For a first look, browse the example figures in `Model_output/output.ipynb`. Some notebooks contain large saved outputs; if GitHub cannot display them, open them locally.
 
-![Model output without aortic stenosis](Model_output/Figures/output_noAS.png)
+![Model output normal aortic valve](Model_output/Figures/output_noAS.png)
 
 ## Installation
 
@@ -67,7 +67,11 @@ python -m pip install -r requirements.txt
 
 The baseline model example below uses the supplied JSON parameters and does not require the large CSV datasets.
 
-## Model example
+## Model scheme
+
+![Model scheme](Windkessel2horizontal.png)
+
+## Run example
 
 From the repository root, save the following code as `demo.py` and run `python demo.py` in the activated environment:
 
