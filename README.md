@@ -27,7 +27,7 @@ ported by the Ministry of Education, Youth and Sports of the Czech Republic.
 | `input_values/parameters_input.json` | Baseline model parameters and initial conditions |
 | `plot_functions.py` | Plotting utilities for model outputs and analyses |
 | `Model_output/output.ipynb` | Model output examples for AS and noAS |
-| `Model_output/pVloops.ipynb` | Pressureâ€“volume loop analyses |
+| `Model_output/pVloops.ipynb` | Pressure-volume loop analyses |
 | `Single_Variable_Analysis/` | Parameter sweeps, their results and figures |
 | `Global_Sensitivity_Analysis/Morris/` | Morris sensitivity analysis |
 | `Global_Sensitivity_Analysis/Sobol/` | Sobol sensitivity analysis |
