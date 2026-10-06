@@ -40,7 +40,7 @@ For a first look, browse the example figures in `Model_output/output.ipynb`. Som
 
 ## Installation
 
-Use a Python 3.12 virtual environment as a starting point. The accompanying `requirements.txt` lists identified dependencies.
+Use a Python 3.12 virtual environment as a starting point.
 Clone the repository without automatically downloading the large Git LFS datasets:
 
 macOS, Linux:
