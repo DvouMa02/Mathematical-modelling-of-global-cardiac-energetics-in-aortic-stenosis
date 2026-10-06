@@ -1,0 +1,11 @@
+/Global_Sensitivity_Analysis/Sobol/Data/sobol_output_data_AS.csv filter=lfs diff=lfs merge=lfs -text
+/Global_Sensitivity_Analysis/Sobol/Data/sobol_output_data_noAS.csv filter=lfs diff=lfs merge=lfs -text
+/Simulation/Data/output_allpopulation_AS.csv filter=lfs diff=lfs merge=lfs -text
+/Simulation/Data/output_allpopulation_noAS.csv filter=lfs diff=lfs merge=lfs -text
+/Simulation/Data/output_selpopulation_noAS.csv filter=lfs diff=lfs merge=lfs -text
+/Simulation/Data/output_selpopulation_sim1_noAS.csv filter=lfs diff=lfs merge=lfs -text
+/Simulation/Data/output_selpopulation_sim2_noAS.csv filter=lfs diff=lfs merge=lfs -text
+/Simulation/Data/output_selpopulation_sim3_noAS.csv filter=lfs diff=lfs merge=lfs -text
+/Simulation/Data/output_selpopulation_sim4_noAS.csv filter=lfs diff=lfs merge=lfs -text
+Global_Sensitivity_Analysis/Sobol/Data/*.csv filter=lfs diff=lfs merge=lfs -text
+Simulation/Data/*.csv filter=lfs diff=lfs merge=lfs -text
