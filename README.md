@@ -2,8 +2,8 @@
 
 Python research code showcase accompanying my bachelor's thesis at Brno University of Technology. The project explores how aortic stenosis and changes in cardiovascular parameters affect haemodynamics, coronary blood flow and the balance between myocardial energy supply and demand.
 
-**Author:** Martin Dvouletý 
 **Thesis:** [Mathematical modelling of global cardiac energetics in aortic stenosis](https://www.vut.cz/en/students/final-thesis/detail/175708)
+**Author:** Martin Dvouletý 
 
 This repository brings together the cardiovascular model, simulation scripts, sensitivity analyses and figures. It serves as a code showcase and a record of the computational work behind the thesis.
 
