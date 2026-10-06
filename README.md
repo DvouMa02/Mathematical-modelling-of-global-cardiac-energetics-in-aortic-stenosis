@@ -96,7 +96,7 @@ fig, ax = plt.subplots()
 ax.plot(result["chambers"]["Vlv"], result["chambers"]["Plv"])
 ax.set_xlabel("Left ventricular volume (mL)")
 ax.set_ylabel("Left ventricular pressure (mmHg)")
-ax.set_title(f"left ventricular pV loop")
+ax.set_title("Left ventricular pV loop")
 fig.tight_layout()
 plt.show()
 ```
