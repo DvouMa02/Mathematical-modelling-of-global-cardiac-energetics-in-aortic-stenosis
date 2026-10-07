@@ -36,7 +36,7 @@ The model represents the four cardiac chambers, cardiac valves, systemic and pul
 
 For a first look, browse the example figures in `Model_output/output.ipynb`. Some notebooks contain large saved outputs; if GitHub cannot display them, open them locally.
 
-![Model output normal aortic valve](Model_output/Figures/output_noAS.png)
+![Model output normal aortic valve](Model_output/Figures/output_AS.png)
 
 ## Installation
 
