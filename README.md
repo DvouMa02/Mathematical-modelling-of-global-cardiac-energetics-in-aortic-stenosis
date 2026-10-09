@@ -39,7 +39,7 @@ For a first look, browse the example figures in `Model_output/output.ipynb`. Som
 ![Model output normal aortic valve](Model_output/Figures/output_noAS.png)
 
 ## Total order Sobol indices
-![Model output normal aortic valve](Global_Synsitivity_Analysis/Sobol/Figures/ST.svg)
+![Total order Sobol indices](Global_Synsitivity_Analysis/Sobol/Figures/ST.svg)
 
 ## Installation
 
